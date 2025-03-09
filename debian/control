@@ -1,0 +1,51 @@
+Source: gz-common
+Section: libs
+Priority: optional
+Maintainer: Giovanni Senatore <giovanni.senatore@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ gz-cmake,
+ libgdal-dev,
+ libfreeimage-dev,
+ libgts-dev,
+ libassimp-dev,
+ libswscale-dev,
+ libavdevice-dev,
+ libavformat-dev,
+ libavcodec-dev,
+ libavutil-dev,
+Standards-Version: 4.6.2
+Homepage: https://gazebosim.org/
+#Vcs-Browser: https://salsa.debian.org/debian/gz-common
+#Vcs-Git: https://salsa.debian.org/debian/gz-common.git
+
+Package: libgz-common-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends:
+ libgz-common6 (= ${binary:Version}),
+ ${misc:Depends},
+Description: An audio-visual library supports processing audio and video files - development files
+ Gazebo Common, a component of Gazebo, provides a set of libraries that
+ cover many different use cases. An audio-visual library supports processing
+ audio and video files, a graphics library can load a variety 3D mesh file
+ formats into a generic in-memory representation, and the core library of
+ Gazebo Common contains functionality that spans Base64 encoding/decoding to
+ thread pools.
+
+Package: libgz-common6
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: An audio-visual library supports processing audio and video files
+ Gazebo Common, a component of Gazebo, provides a set of libraries that
+ cover many different use cases. An audio-visual library supports processing
+ audio and video files, a graphics library can load a variety 3D mesh file
+ formats into a generic in-memory representation, and the core library of
+ Gazebo Common contains functionality that spans Base64 encoding/decoding to
+ thread pools.

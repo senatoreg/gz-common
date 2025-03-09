@@ -1,0 +1,20 @@
+--- a/testing/include/gz/common/testing/detail/AutoLogFixture.hh	2024-11-04 18:55:17.224390974 +0100
++++ b/testing/include/gz/common/testing/detail/AutoLogFixture.hh	2024-11-04 18:55:30.508340915 +0100
+@@ -20,6 +20,7 @@
+ #include <algorithm>
+ #include <memory>
+ #include <string>
++#include <algorithm>
+ 
+ /// Protect to guarantee that gtest is included before this header.
+ ///
+--- a/test/performance/logging.cc	2024-11-04 18:56:51.951950319 +0100
++++ b/test/performance/logging.cc	2024-11-04 18:57:02.031855846 +0100
+@@ -20,6 +20,7 @@
+ #include <atomic>
+ #include <map>
+ #include <thread>
++#include <algorithm>
+ 
+ #include <gz/common/Console.hh>
+ #include <gz/common/testing/RedirectConsoleStream.hh>
