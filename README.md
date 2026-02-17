@@ -9,10 +9,10 @@
 
 Build | Status
 -- | --
-Test coverage | [![codecov](https://codecov.io/gh/gazebosim/gz-common/tree/gz-common6/graph/badge.svg)](https://codecov.io/gh/gazebosim/gz-common/tree/gz-common6)
-Ubuntu Noble  | [![Build Status](https://build.osrfoundation.org/buildStatus/icon?job=gz_common-ci-gz-common6-noble-amd64)](https://build.osrfoundation.org/job/gz_common-ci-gz-common6-noble-amd64)
-Homebrew      | [![Build Status](https://build.osrfoundation.org/buildStatus/icon?job=gz_common-ci-gz-common6-homebrew-amd64)](https://build.osrfoundation.org/job/gz_common-ci-gz-common6-homebrew-amd64)
-Windows       | [![Build Status](https://build.osrfoundation.org/job/gz_common-6-clowin/badge/icon)](https://build.osrfoundation.org/job/gz_common-6-clowin/)
+Test coverage | [![codecov](https://codecov.io/gh/gazebosim/gz-common/tree/gz-common7/graph/badge.svg)](https://codecov.io/gh/gazebosim/gz-common/tree/gz-common7)
+Ubuntu Noble  | [![Build Status](https://build.osrfoundation.org/buildStatus/icon?job=gz_common-ci-gz-common7-noble-amd64)](https://build.osrfoundation.org/job/gz_common-ci-gz-common7-noble-amd64)
+Homebrew      | [![Build Status](https://build.osrfoundation.org/buildStatus/icon?job=gz_common-ci-gz-common7-homebrew-amd64)](https://build.osrfoundation.org/job/gz_common-ci-gz-common7-homebrew-amd64)
+Windows       | [![Build Status](https://build.osrfoundation.org/job/gz_common-7-cnlwin/badge/icon)](https://build.osrfoundation.org/job/gz_common-7-cnlwin/)
 
 Gazebo Common, a component of [Gazebo](https://gazebosim.org), provides a set of libraries that
 cover many different use cases. An audio-visual library supports
@@ -55,11 +55,11 @@ callback system.
 
 # Install
 
-See the [installation tutorial](https://gazebosim.org/api/common/6/install.html).
+See the [installation tutorial](https://gazebosim.org/api/common/7/install.html).
 
 # Usage
 
-Please refer to the [examples directory](https://github.com/gazebosim/gz-common/tree/gz-common6/examples).
+Please refer to the [examples directory](https://github.com/gazebosim/gz-common/tree/gz-common7/examples).
 
 # Folder Structure
 
